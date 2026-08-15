@@ -1,0 +1,294 @@
+# The system, in one file.
+#
+# Every relation runs the same pipeline (mave/pipeline.py). What differs is
+# declared here and nowhere else: which questions to ask (`sources`), what shape
+# of answer the task defines (`answer`), and how much agreement it takes to emit a
+# candidate (`quorum`).
+#
+# There is no fitted threshold in any of it. `corroborated` means "named by two
+# sources", `settles` means "more than half the voices", the jury's bar is its own
+# 2-of-3, and the numeric tolerance is imported from the official scorer. The
+# `seed` values are draw identities, not tuning: two sources sharing a prompt need
+# distinct seeds or their sampled draws collapse onto the same cached responses.
+
+name: mave
+description: >-
+  Closed-book KBC on one 24B open-weight model. Per relation, several independent
+  elicitations are pooled into one vote per source, and the answer is emitted by
+  the shape the task defines.
+
+model:
+  name: mistralai/mistral-small-3.2-24b-instruct   # sent to the endpoint; --model overrides
+  cache: mistralai/mistral-small-3.2-24b-instruct  # cache identity — keep fixed to replay
+  params_b: 24                                     # open weights, Apache-2.0, within 32B
+
+relations:
+
+  # --------------------------------------------------------------- set answers
+  countryLandBordersCountry:
+    prompt: country_pool_verify
+    params:
+      answer: set
+      quorum: corroborated
+      collapse: entity
+      sources:
+        # Two framings of the recall, because "list the neighbours" and "how many
+        # neighbours, then name them" fail differently.
+        - name: plain
+          ask: user_plain
+          max_tokens: 1024
+          fact: false
+        - name: count
+          ask: user_count
+          max_tokens: 1024
+          fact: false
+        # Testifies about the FACT — does this country share a land border at all —
+        # without putting candidates in the pool (`pool: false`). It exists because
+        # the model over-applies "island / microstate -> no land borders".
+        - name: landmass
+          system: system_landmass
+          ask: user_landmass
+          read: json
+          status: status
+          pool: false
+          draws: 3
+          seed: 91000
+          temperature: 0.7
+          max_tokens: 300
+      # A candidate only one source named is dropped by the quorum as a class.
+      # `admit` asks whether that class is separable and applies the same
+      # arithmetic one level down: by jury votes those candidates are right
+      # 17 / 33 / 67 / 78 % of the time, against a bar of 47 %.
+      jury: {var: country, role: land}
+      admit: jury_majority
+      stance:
+        assert: [shared]
+        deny: [alone]
+      veto: deny
+      align: true
+
+  companyTradesAtStockExchange:
+    prompt: company_pool
+    params:
+      answer: set
+      quorum: corroborated
+      # Venue names need a model to group them: asked separately, "HKEX",
+      # "Hong Kong Stock Exchange" and "SEHK" split one candidate three ways.
+      normalise: exchange
+      sources:
+        - name: joint          # exchanges and listing status in one answer
+          ask: user
+          read: json
+          field: [exchanges, exchange]
+          status: status
+          max_tokens: 512
+        - name: record         # write out the company's record, then read it
+          system: ic_system
+          ask: ic_user
+          read: json
+          field: [stock_exchanges]
+          status: listing_status
+          max_tokens: 400
+        - name: wikitext       # free recall closed by an explicit LISTED: line
+          system: wt_system
+          ask: wt_user
+          read: marker
+          marker: LISTED
+          max_tokens: 350
+        - name: lang           # ask in the language the company is documented in
+          system: ml_system
+          read: json
+          field: [exchanges]
+          status: listed
+          max_tokens: 250
+          route: {system: lang_system, ask: lang_user, max_tokens: 6,
+                  prefix: ml_user_, fallback: en}
+        - name: ticker         # from the ticker symbol back to the venue
+          system: tk_system
+          ask: tk_user
+          read: json
+          field: [exchange]
+          max_tokens: 80
+      stance:
+        assert: [listed, public, traded, 'true']
+        deny: [not_listed, notlisted, not listed, private, unlisted, subsidiary,
+               delisted, none, n/a, 'false']
+      veto: deny
+      align: true
+
+  awardWonBy:
+    prompt: award_sources
+    params:
+      answer: set
+      quorum: corroborated
+      collapse: person
+      sources:
+        # Ask the question the way the answer list is organised. A single "who won
+        # this award" collapses onto the famous laureates; sliced by decade, by
+        # discipline and by year, the recall reaches the rest.
+        - name: sliced
+          ask: sliced_user
+          max_tokens: 8192
+          sweep:
+            - {lo: 2020, hi: 2029}
+            - {lo: 2010, hi: 2019}
+            - {lo: 2000, hi: 2009}
+            - {lo: 1990, hi: 1999}
+            - {lo: 1980, hi: 1989}
+            - {lo: 1970, hi: 1979}
+            - {lo: 1960, hi: 1969}
+            - {lo: 1950, hi: 1959}
+            - {lo: 1940, hi: 1949}
+            - {lo: 1930, hi: 1939}
+            - {lo: 1920, hi: 1929}
+            - {lo: 1901, hi: 1919}
+        - name: union
+          ask: vanilla_user
+          max_tokens: 8192
+          draws: 8
+          greedy: false
+          temperature: 1.0
+          seed: 3000
+        - name: discipline
+          ask: discipline_user
+          max_tokens: 2048
+          sweep:
+            - {discipline: physics}
+            - {discipline: chemistry}
+            - {discipline: medicine or biology}
+            - {discipline: mathematics}
+            - {discipline: computer science}
+            - {discipline: economics}
+            - {discipline: law}
+            - {discipline: literature or the humanities}
+            - {discipline: history or archaeology}
+            - {discipline: engineering}
+            - {discipline: social sciences}
+            - {discipline: library or information science}
+        - name: yearly         # the model names the award's span, then every year in it
+          ask: yearly_user
+          max_tokens: 2048
+          years: {system: range_system, ask: range_user, max_tokens: 32,
+                  span: 130, var: yr}
+      align: true
+
+  # --------------------------------------------------------- singleton answer
+  personHasCityOfDeath:
+    prompt: city_pool
+    params:
+      answer: singleton
+      # Emit only if the pool settled on one city. The binding limit on this
+      # relation is the emit decision, not recall: the right city is in the pool
+      # far more often than it is emitted, and every rule that tried to emit more
+      # of them lost more than it won.
+      panel: settles
+      sources:
+        # All four are two-step: recall a free-text account, then read the city off
+        # it. The diversity belongs in the ACCOUNT — each draw re-samples the
+        # recall, so every draw is a fresh attempt at remembering rather than a
+        # reworded one. `fact: false` because none of them testifies about whether
+        # the person is dead; they only report what they remember.
+        - name: bio            # a biographical note
+          ask: bio_user
+          read: json
+          field: [city]
+          status: status
+          max_tokens: 250
+          fact: false
+          context: {system: bio_context_system, ask: bio_context_user,
+                    draws: 9, seed: 2000, max_tokens: 400}
+        - name: year_cond      # the year of death first, then the city
+          system: year_city_system
+          ask: year_city_user
+          read: json
+          field: [city]
+          status: status
+          max_tokens: 120
+          fact: false
+          context: {system: year_context_system, ask: year_context_user,
+                    draws: 5, seed: 5200, max_tokens: 40}
+        - name: career2        # the career, which places the person geographically
+          system: ctx_read_system
+          ask: ctx_read_user
+          read: json
+          field: [city]
+          status: status
+          max_tokens: 120
+          fact: false
+          context: {system: ctx_career_system, ask: ctx_career_user, draws: 9,
+                    seed: 35000, max_tokens: 400, temperature: 1.0, greedy: false}
+        - name: late2          # the last years specifically
+          system: ctx_read_system
+          ask: ctx_read_user
+          read: json
+          field: [city]
+          status: status
+          max_tokens: 120
+          fact: false
+          context: {system: ctx_late_system, ask: ctx_late_user, draws: 9,
+                    seed: 33000, max_tokens: 400, temperature: 1.0, greedy: false}
+
+  # ------------------------------------------------------------ point answers
+  hasArea:
+    prompt: area_cells
+    params:
+      answer: point
+      sources:
+        # A gazetteer entry and two comparisons. The comparing question beats the
+        # describing one: a rich descriptive record was measured against
+        # `neighbours` and lost, so what ships is one gazetteer and two comparisons.
+        - name: gaz2
+          system: ctx_area_read_system
+          ask: ctx_area_read_user
+          read: number
+          from: area_km2
+          max_tokens: 80
+          context: {system: ctx_gaz_system, ask: ctx_gaz_user,
+                    draws: 5, seed: 51000, max_tokens: 400}
+        - name: compare2       # the model writes the comparison itself
+          system: ctx_area_read_system
+          ask: ctx_area_read_user
+          read: number
+          from: area_km2
+          max_tokens: 80
+          context: {system: ctx_compare_system, ask: ctx_compare_user,
+                    draws: 5, seed: 53000, max_tokens: 400}
+        - name: neighbours     # placed beside the two features closest in area
+          system: system_neighbours
+          ask: user_neighbours
+          read: number
+          from: marker
+          max_tokens: 400
+          draws: 5
+          seed: 7200
+
+  hasCapacity:
+    prompt: capacity_cells
+    params:
+      answer: point
+      sources:
+        # Forty draws per item, and the sample size is the point: at four draws the
+        # correct value is in the pool for about a third of the items, at two
+        # hundred for most of them. Once the sample describes a distribution rather
+        # than a handful of points, the estimator changes with it.
+        - name: cap_wikitext
+          system: system_cap_wikitext
+          ask: user_cap_wikitext
+          read: number
+          from: marker
+          max_tokens: 350
+          draws: 20
+          seed: 41000
+          temperature: 1.0
+        - name: cic_rich
+          system: system_cic_rich
+          ask: user_cic_rich
+          read: number
+          from: capacity
+          max_tokens: 400
+          draws: 20
+          seed: 42000
+          temperature: 1.0
+      # These draws scatter, so how many numbers to emit is worth deciding per item
+      # rather than per relation — and the metric can decide it (mave/numbers.py).
+      emit: expected_score

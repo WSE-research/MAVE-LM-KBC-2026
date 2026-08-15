@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets — never commit
+.env
+
+# Run output (predictions/ holds the published ones)
+runs/
+
+# Responses drawn locally. The shipped draw set is cache/*.jsonl.gz and IS committed:
+# a response cache is not a regenerable artifact — see cache/README.md.
+cache/*.jsonl

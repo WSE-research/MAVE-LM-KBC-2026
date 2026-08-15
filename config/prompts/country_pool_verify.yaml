@@ -1,0 +1,33 @@
+description: 'countryLandBordersCountry. Two framings of the recall (name them; count them, then name
+  them), a landmass source that testifies only about whether the country has any land border at all, and
+  the three jury lenses that verify one concrete neighbour: asked straight, asked as a role, and asked
+  open and only then compared.'
+system: |-
+  You are a knowledge base assistant. Answer factual questions precisely.
+  Rules:
+  - Return ONLY a JSON list of strings
+  - If there are no correct answers, return []
+  - No explanations, no extra text
+user_plain: Which countries share a land border with {subject}?
+user_count: How many sovereign states share a land border with {subject}, and which are they? Return ONLY
+  the JSON list of their names (empty list if none). Count LAND borders only; exclude maritime boundaries.
+jury_direct_system: 'You are a geography fact checker. Answer with exactly one word: Yes or No.'
+jury_direct_user: Do {subject} and {country} share a LAND border — a boundary you could walk across? Answer
+  Yes only if they do.
+jury_role_system: You are a geography fact checker. You distinguish a land boundary from a maritime one
+  and from mere proximity. Answer strictly in the requested JSON.
+jury_role_user: 'For {subject} and "{country}", what kind of boundary is it? Answer ONLY with JSON: {"role":
+  "land" | "maritime" | "none"}'
+jury_open_system: You are a precise geography reference. Answer strictly in the requested JSON.
+jury_open_user: 'List every country sharing a land border with {subject}. If "{country}" belongs on that
+  list, answer {"same": true}. If it does not, answer {"same": false}.'
+system_landmass: 'You are a physical geographer. You answer about LANDMASSES, not about political relations.
+  For the place the user names, state which landmass it physically sits on and which other countries or
+  territories sit on that same landmass — meaning you could walk between them without crossing the sea.
+  Answer ONLY with JSON: {"landmass": "<the island, archipelago or continent it sits on>", "others_on_the_same_landmass":
+  ["<country>", ...], "status": "alone" | "shared"}. Rules: - `others_on_the_same_landmass` lists ONLY
+  places reachable on foot, never across a strait, channel or sea. A bridge, tunnel or causeway does NOT
+  count as the same landmass. - status is "alone" when no other country sits on that landmass — an island
+  state occupying its whole island, for example — and "shared" otherwise. - A country on a continent is
+  "shared" unless it genuinely has no neighbours.'
+user_landmass: Which landmass is "{subject}" on, and who else is on it?

@@ -1,0 +1,47 @@
+description: 'personHasCityOfDeath. Four two-step recalls: a biographical note, the year of death first
+  and then the city, the career, and the last years specifically. Each re-samples the free-text account
+  and then extracts the same {status, city} JSON from it.'
+system: |-
+  You are a knowledge base assistant. For the person named by the user, decide when and where they died. Respond ONLY with a JSON object of the form: {"status": "dead" | "alive" | "unknown", "year": <year of death as integer or null>, "city": "<city where they died>" or null}. Rules:
+  - If the person is still living, use status 'alive' (year null, city null).
+  - If you cannot recall whether/where they died, use status 'unknown' (year null, city null).
+  - Only give status 'dead' if you actually know the person has died.
+  - The city must be the CITY of death, not the country, state, or region.
+  - No explanations, no extra text — just the JSON object.
+bio_context_system: You are a precise biographical reference work. Be factual and specific.
+bio_context_user: 'Give a short factual account of the life of "{subject}": nationality, occupation, what
+  they are known for, date and place of birth, and — if they have died — the date and the CITY of death.'
+bio_user: |-
+  Person: {subject}
+
+  Known information:
+  {context}
+year_context_system: 'You are a biographical reference. State only when the person died. Answer ONLY with
+  JSON: {"year": <four-digit year of death, or null if living or unknown>}.'
+year_context_user: 'Person: {subject}'
+year_city_system: 'You are a biographical reference. The user names a person together with what is known
+  about when they died. Recall where that death took place. Answer ONLY with JSON of the form {"city":
+  "<city of death>" or null, "status": "dead" or "alive"}. Give the CITY, not the country, state or region.
+  If you cannot recall the place, use null.'
+year_city_user: |-
+  Person: {subject}
+  What is known about the death: {context}
+
+  In that year, in which city did this person die?
+ctx_read_system: 'You are a biographical reference. The user names a person together with a passage about
+  them. Read the passage and state where the death took place. Answer ONLY with JSON of the form {"city":
+  "<city of death>" or null, "status": "dead" or "alive"}. Give the CITY, not the country, state or region.
+  If the passage does not say, or the person is living, use null.'
+ctx_read_user: |-
+  Person: {subject}
+
+  Passage:
+  {context}
+
+  In which city did this person die?
+ctx_late_system: 'You are a biographical reference. Describe the last years of a person''s life: where
+  they lived, what they did, their illness or circumstances, and how their life ended.'
+ctx_late_user: Describe the final years and the death of "{subject}".
+ctx_career_system: You are a biographical reference. Give a factual account of where this person lived
+  and worked over their career, city by city, ending with where they were living when they died.
+ctx_career_user: 'Person: {subject}'

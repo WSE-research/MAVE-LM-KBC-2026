@@ -1,0 +1,475 @@
+{"SubjectEntity": "Lošinj", "Relation": "hasArea", "ObjectEntities": ["74.64750000000001"]}
+{"SubjectEntity": "Ilha da Queimada Grande", "Relation": "hasArea", "ObjectEntities": ["0.42474999999999996"]}
+{"SubjectEntity": "Estonia", "Relation": "hasArea", "ObjectEntities": ["45280.2"]}
+{"SubjectEntity": "Tanna", "Relation": "hasArea", "ObjectEntities": ["554.275"]}
+{"SubjectEntity": "Møn", "Relation": "hasArea", "ObjectEntities": ["227.88475"]}
+{"SubjectEntity": "Vygozero", "Relation": "hasArea", "ObjectEntities": ["1227"]}
+{"SubjectEntity": "Rùm", "Relation": "hasArea", "ObjectEntities": ["103.236"]}
+{"SubjectEntity": "Lake Biel", "Relation": "hasArea", "ObjectEntities": ["39.2375"]}
+{"SubjectEntity": "Uruguay", "Relation": "hasArea", "ObjectEntities": ["176215"]}
+{"SubjectEntity": "Gogland", "Relation": "hasArea", "ObjectEntities": ["21.15"]}
+{"SubjectEntity": "Skopelos", "Relation": "hasArea", "ObjectEntities": ["96.2325"]}
+{"SubjectEntity": "Hashima Island", "Relation": "hasArea", "ObjectEntities": ["0.061425"]}
+{"SubjectEntity": "Tinos", "Relation": "hasArea", "ObjectEntities": ["197.425"]}
+{"SubjectEntity": "Corfu", "Relation": "hasArea", "ObjectEntities": ["613.175"]}
+{"SubjectEntity": "Saint Kitts and Nevis", "Relation": "hasArea", "ObjectEntities": ["261"]}
+{"SubjectEntity": "Torcello", "Relation": "hasArea", "ObjectEntities": ["7.6425"]}
+{"SubjectEntity": "Tobago", "Relation": "hasArea", "ObjectEntities": ["300"]}
+{"SubjectEntity": "Annobón Island", "Relation": "hasArea", "ObjectEntities": ["17"]}
+{"SubjectEntity": "Icaria", "Relation": "hasArea", "ObjectEntities": ["255"]}
+{"SubjectEntity": "Hopen", "Relation": "hasArea", "ObjectEntities": ["47.239999999999995"]}
+{"SubjectEntity": "Lítla Dímun", "Relation": "hasArea", "ObjectEntities": ["0.78325"]}
+{"SubjectEntity": "El Salvador", "Relation": "hasArea", "ObjectEntities": ["21041"]}
+{"SubjectEntity": "Cocos Island, Costa Rica", "Relation": "hasArea", "ObjectEntities": ["23.895"]}
+{"SubjectEntity": "Leros", "Relation": "hasArea", "ObjectEntities": ["53.476425000000006"]}
+{"SubjectEntity": "Vänern", "Relation": "hasArea", "ObjectEntities": ["5601.975"]}
+{"SubjectEntity": "Île Saint-Paul", "Relation": "hasArea", "ObjectEntities": ["7"]}
+{"SubjectEntity": "Vasilyevsky Island", "Relation": "hasArea", "ObjectEntities": ["10.48525"]}
+{"SubjectEntity": "Phú Quốc", "Relation": "hasArea", "ObjectEntities": ["580.9962499999999"]}
+{"SubjectEntity": "Folegandros", "Relation": "hasArea", "ObjectEntities": ["32.07125"]}
+{"SubjectEntity": "Adak Island", "Relation": "hasArea", "ObjectEntities": ["701.9649999999999"]}
+{"SubjectEntity": "Belarus", "Relation": "hasArea", "ObjectEntities": ["207600"]}
+{"SubjectEntity": "Devon Island", "Relation": "hasArea", "ObjectEntities": ["55247"]}
+{"SubjectEntity": "Itsukushima", "Relation": "hasArea", "ObjectEntities": ["31.76"]}
+{"SubjectEntity": "Lake Texcoco", "Relation": "hasArea", "ObjectEntities": ["1523.75"]}
+{"SubjectEntity": "The Bahamas", "Relation": "hasArea", "ObjectEntities": ["13878"]}
+{"SubjectEntity": "Ayon Island", "Relation": "hasArea", "ObjectEntities": ["124.60749999999999"]}
+{"SubjectEntity": "Misool Island", "Relation": "hasArea", "ObjectEntities": ["2101.75"]}
+{"SubjectEntity": "Crete", "Relation": "hasArea", "ObjectEntities": ["8336"]}
+{"SubjectEntity": "Basque Country (greater region)", "Relation": "hasArea", "ObjectEntities": ["21440.15"]}
+{"SubjectEntity": "Margarita Island", "Relation": "hasArea", "ObjectEntities": ["977.7"]}
+{"SubjectEntity": "Terceira Island", "Relation": "hasArea", "ObjectEntities": ["397.14425"]}
+{"SubjectEntity": "İmralı", "Relation": "hasArea", "ObjectEntities": ["9.444749999999999"]}
+{"SubjectEntity": "Vancouver Island", "Relation": "hasArea", "ObjectEntities": ["31581.175000000003"]}
+{"SubjectEntity": "Bioko", "Relation": "hasArea", "ObjectEntities": ["2017"]}
+{"SubjectEntity": "Lake Wörther", "Relation": "hasArea", "ObjectEntities": ["19.38425"]}
+{"SubjectEntity": "Lewis and Harris", "Relation": "hasArea", "ObjectEntities": ["2178.475"]}
+{"SubjectEntity": "Tortola", "Relation": "hasArea", "ObjectEntities": ["55.28"]}
+{"SubjectEntity": "Isola di San Michele", "Relation": "hasArea", "ObjectEntities": ["0.16"]}
+{"SubjectEntity": "Rügen", "Relation": "hasArea", "ObjectEntities": ["926.19"]}
+{"SubjectEntity": "Dongting Lake", "Relation": "hasArea", "ObjectEntities": ["2752.275"]}
+{"SubjectEntity": "Flinders Island", "Relation": "hasArea", "ObjectEntities": ["1349.975"]}
+{"SubjectEntity": "Lake Zaysan", "Relation": "hasArea", "ObjectEntities": ["1823.75"]}
+{"SubjectEntity": "Hong Kong Island", "Relation": "hasArea", "ObjectEntities": ["79.58175"]}
+{"SubjectEntity": "Great Prespa Lake", "Relation": "hasArea", "ObjectEntities": ["260.35"]}
+{"SubjectEntity": "Seram", "Relation": "hasArea", "ObjectEntities": ["17292.375"]}
+{"SubjectEntity": "Djurgården", "Relation": "hasArea", "ObjectEntities": ["3.3425000000000002"]}
+{"SubjectEntity": "Eysturoy", "Relation": "hasArea", "ObjectEntities": ["286.2475"]}
+{"SubjectEntity": "Seychelles", "Relation": "hasArea", "ObjectEntities": ["459"]}
+{"SubjectEntity": "Fuerteventura", "Relation": "hasArea", "ObjectEntities": ["1659.8635"]}
+{"SubjectEntity": "Khortytsia", "Relation": "hasArea", "ObjectEntities": ["24.5"]}
+{"SubjectEntity": "Yell", "Relation": "hasArea", "ObjectEntities": ["210.1825"]}
+{"SubjectEntity": "Island of Ireland", "Relation": "hasArea", "ObjectEntities": ["84421"]}
+{"SubjectEntity": "Lake Eğirdir", "Relation": "hasArea", "ObjectEntities": ["48.095"]}
+{"SubjectEntity": "Kenya", "Relation": "hasArea", "ObjectEntities": ["580367"]}
+{"SubjectEntity": "Isle of Wight", "Relation": "hasArea", "ObjectEntities": ["382.0425"]}
+{"SubjectEntity": "Goli otok", "Relation": "hasArea", "ObjectEntities": ["4.342499999999999"]}
+{"SubjectEntity": "Lake Tanganyika", "Relation": "hasArea", "ObjectEntities": ["32739.175"]}
+{"SubjectEntity": "Japan", "Relation": "hasArea", "ObjectEntities": ["377975"]}
+{"SubjectEntity": "Europa Island", "Relation": "hasArea", "ObjectEntities": ["28"]}
+{"SubjectEntity": "Adelaide Island", "Relation": "hasArea", "ObjectEntities": ["1431.75"]}
+{"SubjectEntity": "Donauinsel", "Relation": "hasArea", "ObjectEntities": ["21.1"]}
+{"SubjectEntity": "Chiloé Island", "Relation": "hasArea", "ObjectEntities": ["8394"]}
+{"SubjectEntity": "Isle of Mull", "Relation": "hasArea", "ObjectEntities": ["875.40375"]}
+{"SubjectEntity": "Erhai Lake", "Relation": "hasArea", "ObjectEntities": ["245.225"]}
+{"SubjectEntity": "Filicudi", "Relation": "hasArea", "ObjectEntities": ["9.5"]}
+{"SubjectEntity": "Amund Ringnes Island", "Relation": "hasArea", "ObjectEntities": ["5253.525"]}
+{"SubjectEntity": "Lake Bohinj", "Relation": "hasArea", "ObjectEntities": ["3.18"]}
+{"SubjectEntity": "Mafia Island", "Relation": "hasArea", "ObjectEntities": ["482.825"]}
+{"SubjectEntity": "Borðoy", "Relation": "hasArea", "ObjectEntities": ["95.1425"]}
+{"SubjectEntity": "Mainland, Orkney", "Relation": "hasArea", "ObjectEntities": ["546.435"]}
+{"SubjectEntity": "Lake Alakol", "Relation": "hasArea", "ObjectEntities": ["2652.375"]}
+{"SubjectEntity": "La Digue", "Relation": "hasArea", "ObjectEntities": ["10.365749999999998"]}
+{"SubjectEntity": "Costa Rica", "Relation": "hasArea", "ObjectEntities": ["51100"]}
+{"SubjectEntity": "Okinotorishima", "Relation": "hasArea", "ObjectEntities": ["4.395"]}
+{"SubjectEntity": "South Georgia", "Relation": "hasArea", "ObjectEntities": ["3825.825"]}
+{"SubjectEntity": "South Uist", "Relation": "hasArea", "ObjectEntities": ["310.17499999999995"]}
+{"SubjectEntity": "Bequia", "Relation": "hasArea", "ObjectEntities": ["18.665"]}
+{"SubjectEntity": "Walensee", "Relation": "hasArea", "ObjectEntities": ["24.171"]}
+{"SubjectEntity": "Kyushu", "Relation": "hasArea", "ObjectEntities": ["36174.575"]}
+{"SubjectEntity": "São Tomé and Príncipe", "Relation": "hasArea", "ObjectEntities": ["981.575"]}
+{"SubjectEntity": "Lanai", "Relation": "hasArea", "ObjectEntities": ["364.7975"]}
+{"SubjectEntity": "Maldives", "Relation": "hasArea", "ObjectEntities": ["298.95000000000005"]}
+{"SubjectEntity": "Markermeer", "Relation": "hasArea", "ObjectEntities": ["716.625"]}
+{"SubjectEntity": "Ambrym", "Relation": "hasArea", "ObjectEntities": ["677.475"]}
+{"SubjectEntity": "Lower Lough Erne", "Relation": "hasArea", "ObjectEntities": ["75.85"]}
+{"SubjectEntity": "Santorini", "Relation": "hasArea", "ObjectEntities": ["75.80250000000001"]}
+{"SubjectEntity": "Maui", "Relation": "hasArea", "ObjectEntities": ["1883.5700000000002"]}
+{"SubjectEntity": "Grande Terre (New Caledonia)", "Relation": "hasArea", "ObjectEntities": ["16467.456"]}
+{"SubjectEntity": "Nusa Penida", "Relation": "hasArea", "ObjectEntities": ["202.24075000000002"]}
+{"SubjectEntity": "Belgium", "Relation": "hasArea", "ObjectEntities": ["30604.475"]}
+{"SubjectEntity": "Estádio Gileno de Carli in Pernambuco", "Relation": "hasCapacity", "ObjectEntities": ["10475", "7863.5"]}
+{"SubjectEntity": "Bakhshi Stadium in Srinagar", "Relation": "hasCapacity", "ObjectEntities": ["36662.5", "28950"]}
+{"SubjectEntity": "Melaleuca Field in Idaho", "Relation": "hasCapacity", "ObjectEntities": ["35950"]}
+{"SubjectEntity": "Cove Road Stadium in Ontario", "Relation": "hasCapacity", "ObjectEntities": ["1500", "5000"]}
+{"SubjectEntity": "Brookvale Oval in New South Wales", "Relation": "hasCapacity", "ObjectEntities": ["22474.675000000003"]}
+{"SubjectEntity": "Baker Bowl in Philadelphia", "Relation": "hasCapacity", "ObjectEntities": ["21950"]}
+{"SubjectEntity": "Jinshan Sports Centre in Shanghai", "Relation": "hasCapacity", "ObjectEntities": ["31425"]}
+{"SubjectEntity": "Nuevo Estadio Azul in Mexico City", "Relation": "hasCapacity", "ObjectEntities": ["33678.925"]}
+{"SubjectEntity": "Spartan Stadium in Michigan", "Relation": "hasCapacity", "ObjectEntities": ["75475"]}
+{"SubjectEntity": "Estadio de la Escuela Superior de Policía in Quito", "Relation": "hasCapacity", "ObjectEntities": ["3342.5", "3864.55", "15570"]}
+{"SubjectEntity": "Zhuzhou Stadium in Zhuzhou", "Relation": "hasCapacity", "ObjectEntities": ["31425"]}
+{"SubjectEntity": "Stadion Nord in Hamburg", "Relation": "hasCapacity", "ObjectEntities": ["54898.95"]}
+{"SubjectEntity": "Estádio Durval Ferreira Franco in Goiás", "Relation": "hasCapacity", "ObjectEntities": ["10277.650000000001"]}
+{"SubjectEntity": "Walt Driggers Field in Texas", "Relation": "hasCapacity", "ObjectEntities": ["1547.5", "2047.5", "4000"]}
+{"SubjectEntity": "Teladan Stadium in Medan", "Relation": "hasCapacity", "ObjectEntities": ["30000"]}
+{"SubjectEntity": "Sani Abacha Stadium in Kano", "Relation": "hasCapacity", "ObjectEntities": ["15475"]}
+{"SubjectEntity": "Sector 42 Stadium in Chandigarh", "Relation": "hasCapacity", "ObjectEntities": ["23950"]}
+{"SubjectEntity": "Stevenson Field in Rhode Island", "Relation": "hasCapacity", "ObjectEntities": ["5237.5"]}
+{"SubjectEntity": "Mario Alberto Kempes Stadium in Córdoba Province", "Relation": "hasCapacity", "ObjectEntities": ["55425"]}
+{"SubjectEntity": "Yadegar-e Emam Stadium (Qom) in Qom", "Relation": "hasCapacity", "ObjectEntities": ["15118.75"]}
+{"SubjectEntity": "Yangquan Stadium in Yangquan", "Relation": "hasCapacity", "ObjectEntities": ["28998.449999999997"]}
+{"SubjectEntity": "Shijingshan Stadium in Beijing", "Relation": "hasCapacity", "ObjectEntities": ["29950"]}
+{"SubjectEntity": "Perry Lakes Stadium in Western Australia", "Relation": "hasCapacity", "ObjectEntities": ["20450"]}
+{"SubjectEntity": "Tompsett Stadium in Victoria", "Relation": "hasCapacity", "ObjectEntities": ["5047.5"]}
+{"SubjectEntity": "Estádio da Gávea in Rio de Janeiro", "Relation": "hasCapacity", "ObjectEntities": ["46545.275", "15263.400000000001"]}
+{"SubjectEntity": "Weingart Stadium in California", "Relation": "hasCapacity", "ObjectEntities": ["3090.725", "3542.5", "3968.75"]}
+{"SubjectEntity": "Carrara Indoor Stadium in Queensland", "Relation": "hasCapacity", "ObjectEntities": ["5148"]}
+{"SubjectEntity": "Al Thumama Stadium in Doha", "Relation": "hasCapacity", "ObjectEntities": ["41995"]}
+{"SubjectEntity": "Mikheil Meskhi Stadium in Tbilisi", "Relation": "hasCapacity", "ObjectEntities": ["24389.5"]}
+{"SubjectEntity": "Estadio Gasómetro in Buenos Aires", "Relation": "hasCapacity", "ObjectEntities": ["48114.625", "41659.649999999994"]}
+{"SubjectEntity": "Fujian Provincial Sports Centre Stadium in Fuzhou", "Relation": "hasCapacity", "ObjectEntities": ["48580.8", "33425", "28950"]}
+{"SubjectEntity": "Pompano Beach Municipal Stadium in Florida", "Relation": "hasCapacity", "ObjectEntities": ["4770.05", "4194.275"]}
+{"SubjectEntity": "National Heroes Stadium in Lusaka", "Relation": "hasCapacity", "ObjectEntities": ["61425"]}
+{"SubjectEntity": "Martyr Muhammad Al-Durrah Stadium in Gaza Strip", "Relation": "hasCapacity", "ObjectEntities": ["7237.5"]}
+{"SubjectEntity": "Estadio Olímpico Atahualpa in Quito", "Relation": "hasCapacity", "ObjectEntities": ["36163.975"]}
+{"SubjectEntity": "Meihu Sports Centre in Yiwu", "Relation": "hasCapacity", "ObjectEntities": ["12522.025", "15475"]}
+{"SubjectEntity": "UCLA Drake Track and Field Stadium in California", "Relation": "hasCapacity", "ObjectEntities": ["2996.675", "4513.625", "7215.975"]}
+{"SubjectEntity": "Mewata Stadium in Alberta", "Relation": "hasCapacity", "ObjectEntities": ["1547.5", "5190", "10000"]}
+{"SubjectEntity": "Garrison Stadium in North Carolina", "Relation": "hasCapacity", "ObjectEntities": ["5237.5", "10000"]}
+{"SubjectEntity": "Peoples Football Stadium in Karachi", "Relation": "hasCapacity", "ObjectEntities": ["40950"]}
+{"SubjectEntity": "Takhti Stadium in Ahvaz", "Relation": "hasCapacity", "ObjectEntities": ["38950"]}
+{"SubjectEntity": "Brevard Memorial Stadium in North Carolina", "Relation": "hasCapacity", "ObjectEntities": ["4095", "4865.075000000001"]}
+{"SubjectEntity": "Crenshaw Memorial Stadium in Texas", "Relation": "hasCapacity", "ObjectEntities": ["7737.5", "5095", "9737.5"]}
+{"SubjectEntity": "Stade 24 Novembre in Kinshasa", "Relation": "hasCapacity", "ObjectEntities": ["31425", "80000"]}
+{"SubjectEntity": "Cajun Field in Louisiana", "Relation": "hasCapacity", "ObjectEntities": ["30086.5"]}
+{"SubjectEntity": "Prince Faisal bin Fahd Sports City in Riyadh", "Relation": "hasCapacity", "ObjectEntities": ["67486.4", "26475"]}
+{"SubjectEntity": "Sabah Al Salem Stadium in Kuwait City", "Relation": "hasCapacity", "ObjectEntities": ["25250"]}
+{"SubjectEntity": "Estadio Centenario in Montevideo", "Relation": "hasCapacity", "ObjectEntities": ["62735.875"]}
+{"SubjectEntity": "GMR Stadium in Tripoli", "Relation": "hasCapacity", "ObjectEntities": ["67375"]}
+{"SubjectEntity": "Fort William Stadium in Ontario", "Relation": "hasCapacity", "ObjectEntities": ["5190", "9527.5"]}
+{"SubjectEntity": "Pearland Stadium in Texas", "Relation": "hasCapacity", "ObjectEntities": ["5000", "6000"]}
+{"SubjectEntity": "Hong Kong Stadium in Hong Kong", "Relation": "hasCapacity", "ObjectEntities": ["41904.75"]}
+{"SubjectEntity": "Stade L.P. Gaucher in Quebec", "Relation": "hasCapacity", "ObjectEntities": ["4127.3", "10200.45"]}
+{"SubjectEntity": "Emam Reza Stadium in Tehran", "Relation": "hasCapacity", "ObjectEntities": ["28950", "104750"]}
+{"SubjectEntity": "Prince Sultan bin Fahd Stadium in Jeddah", "Relation": "hasCapacity", "ObjectEntities": ["25950"]}
+{"SubjectEntity": "Aleppo 7 April Stadium in Aleppo", "Relation": "hasCapacity", "ObjectEntities": ["51900"]}
+{"SubjectEntity": "Washington–Grizzly Stadium in Montana", "Relation": "hasCapacity", "ObjectEntities": ["25762.375"]}
+{"SubjectEntity": "Punjab Stadium in Lahore", "Relation": "hasCapacity", "ObjectEntities": ["26187.5"]}
+{"SubjectEntity": "Galen Center in Los Angeles", "Relation": "hasCapacity", "ObjectEntities": ["10123.025"]}
+{"SubjectEntity": "Lubbers Stadium in Michigan", "Relation": "hasCapacity", "ObjectEntities": ["4190", "1147.5", "2518.5249999999996"]}
+{"SubjectEntity": "Qinhuangdao Olympic Sports Center Stadium in Qinhuangdao", "Relation": "hasCapacity", "ObjectEntities": ["29854.574999999997"]}
+{"SubjectEntity": "Stade Pierre de Coubertin in Paris", "Relation": "hasCapacity", "ObjectEntities": ["4046.55"]}
+{"SubjectEntity": "Parque Abraham Paladino in Montevideo", "Relation": "hasCapacity", "ObjectEntities": ["20712.5", "6737.5", "5000"]}
+{"SubjectEntity": "Luciana Aymar Stadium in Rosario Department", "Relation": "hasCapacity", "ObjectEntities": ["8237.5", "9835.349999999999", "12475"]}
+{"SubjectEntity": "Golden Bear Stadium in Massachusetts", "Relation": "hasCapacity", "ObjectEntities": ["5237.5"]}
+{"SubjectEntity": "California Memorial Stadium in California", "Relation": "hasCapacity", "ObjectEntities": ["64730.399999999994"]}
+{"SubjectEntity": "Haskell Memorial Stadium in Kansas", "Relation": "hasCapacity", "ObjectEntities": ["51045"]}
+{"SubjectEntity": "Diamond Sports Stadium in South Australia", "Relation": "hasCapacity", "ObjectEntities": ["15712.5", "5047.5"]}
+{"SubjectEntity": "Xi'an International Football Center in Xi'an", "Relation": "hasCapacity", "ObjectEntities": ["49425", "59900", "38923.75"]}
+{"SubjectEntity": "May 17th Stadium in South Kalimantan", "Relation": "hasCapacity", "ObjectEntities": ["41470.6", "43425"]}
+{"SubjectEntity": "Sinatle Stadium in Tbilisi", "Relation": "hasCapacity", "ObjectEntities": ["54950"]}
+{"SubjectEntity": "Graham Stadium in Tennessee", "Relation": "hasCapacity", "ObjectEntities": ["6685", "6085", "5237.5"]}
+{"SubjectEntity": "Estádio Parque Santiago in Salvador", "Relation": "hasCapacity", "ObjectEntities": ["11912.75", "31963.275"]}
+{"SubjectEntity": "Reimer Stadium in Kansas", "Relation": "hasCapacity", "ObjectEntities": ["3497.075", "3908.125", "4937"]}
+{"SubjectEntity": "Mackay Stadium in Nevada", "Relation": "hasCapacity", "ObjectEntities": ["29238.8"]}
+{"SubjectEntity": "Estadio El Birichiche in Tegucigalpa", "Relation": "hasCapacity", "ObjectEntities": ["34475", "5000"]}
+{"SubjectEntity": "Blacktown Baseball Stadium in Sydney", "Relation": "hasCapacity", "ObjectEntities": ["4118.75"]}
+{"SubjectEntity": "Percy Perry Stadium in British Columbia", "Relation": "hasCapacity", "ObjectEntities": ["5237.5"]}
+{"SubjectEntity": "Changshu Stadium in Changshu", "Relation": "hasCapacity", "ObjectEntities": ["28950"]}
+{"SubjectEntity": "Estadio Pioneros de Corumba Cué in Paraguay", "Relation": "hasCapacity", "ObjectEntities": ["5000"]}
+{"SubjectEntity": "Sabuj Sathi Krirangan in Howrah", "Relation": "hasCapacity", "ObjectEntities": ["14737.5", "25000"]}
+{"SubjectEntity": "Netball SA Stadium in South Australia", "Relation": "hasCapacity", "ObjectEntities": ["4190"]}
+{"SubjectEntity": "Wuyuan River Stadium in Haikou", "Relation": "hasCapacity", "ObjectEntities": ["31373.699999999997"]}
+{"SubjectEntity": "Sham Shui Po Sports Ground in Hong Kong", "Relation": "hasCapacity", "ObjectEntities": ["2092.1499999999996"]}
+{"SubjectEntity": "Thai-Japanese Stadium in Bangkok", "Relation": "hasCapacity", "ObjectEntities": ["15025.175"]}
+{"SubjectEntity": "Holman Stadium in Florida", "Relation": "hasCapacity", "ObjectEntities": ["6237.5"]}
+{"SubjectEntity": "CenturyLink Center in Louisiana", "Relation": "hasCapacity", "ObjectEntities": ["13475"]}
+{"SubjectEntity": "St Andrew's in Birmingham", "Relation": "hasCapacity", "ObjectEntities": ["29169.199999999997"]}
+{"SubjectEntity": "Stade des Jeunes in Kananga", "Relation": "hasCapacity", "ObjectEntities": ["12000", "20000"]}
+{"SubjectEntity": "Estadio Municipal de La Molina in Lima", "Relation": "hasCapacity", "ObjectEntities": ["5237.5", "10000"]}
+{"SubjectEntity": "Yakubu Gowon Stadium in Port Harcourt", "Relation": "hasCapacity", "ObjectEntities": ["15475"]}
+{"SubjectEntity": "Estádio Denis Loureiro in Alagoas", "Relation": "hasCapacity", "ObjectEntities": ["20950", "3009.5", "10475"]}
+{"SubjectEntity": "Estádio Juca Sampaio in Alagoas", "Relation": "hasCapacity", "ObjectEntities": ["5209", "6116.05", "9730.150000000001"]}
+{"SubjectEntity": "Estádio João Batista in Alagoas", "Relation": "hasCapacity", "ObjectEntities": ["24693.025", "31915.75", "5212.799999999999"]}
+{"SubjectEntity": "Zayyarthiri Stadium in Naypyidaw", "Relation": "hasCapacity", "ObjectEntities": ["31259.875", "15000"]}
+{"SubjectEntity": "Bailey Memorial Stadium in South Carolina", "Relation": "hasCapacity", "ObjectEntities": ["5237.5", "6237.5", "11095"]}
+{"SubjectEntity": "Taichung Baseball Field in Taichung", "Relation": "hasCapacity", "ObjectEntities": ["10237.5"]}
+{"SubjectEntity": "honorary doctor of Stockholm University", "Relation": "awardWonBy", "ObjectEntities": ["Dag Hammarskjöld", "Kofi Annan", "Olof Palme", "Nelson Mandela", "Gunnar Myrdal", "Albert Einstein", "Amartya Sen", "Mary Robinson", "Harry Martinson", "Alva Myrdal", "Wangari Maathai", "Aung San Suu Kyi", "Malala Yousafzai", "Hjalmar Branting", "Paul Krugman", "Jimmy Carter", "Niels Bohr", "Barack Obama", "Sven-Göran Eriksson", "Desmond Tutu", "David H. Hubel", "Daniel Kahneman", "David Baltimore", "Toni Morrison", "Tage Danielsson", "Eyvind Johnson", "Wole Soyinka", "Ingmar Bergman", "Astrid Lindgren", "Selma Lagerlöf", "Shirin Ebadi", "Sartre", "Max Planck", "Dalai Lama", "Stig Dagerman", "Tage Erlander", "Naguib Mahfouz", "Vaclav Havel", "Gunn Wållgren", "Sven Delblanc", "Sven Hedin", "Sture Allén"]}
+{"SubjectEntity": "Grammy Award for Best Rock Album", "Relation": "awardWonBy", "ObjectEntities": ["The Black Keys", "The White Stripes", "Imagine Dragons", "The Killers", "The Strokes", "Coldplay", "Social Cues", "The New Abnormal", "Morning Phase", "By the Way", "The War on Drugs", "Bruce Springsteen", "Foo Fighters", "In These Silent Days", "A Deeper Understanding", "Californication", "Stadium Arcadium", "Metallica", "The Rolling Stones", "U2", "Green Day", "From the Fires", "Kid A", "The Car", "Kid Rock", "El Camino", "Viva la Vida or Death and All His Friends", "Audioslave", "A Bigger Bang", "How to Dismantle an Atomic Bomb", "Echoes, Silence, Patience & Grace", "21st Century Breakdown", "The Black Eyed Peas", "Rage Against the Machine", "System of a Down", "Bob Dylan", "Paul McCartney", "Harry Styles", "Taylor Swift", "Kendrick Lamar", "Kanye West", "Santana", "Alanis Morissette"]}
+{"SubjectEntity": "honorary doctor of the Yale University", "Relation": "awardWonBy", "ObjectEntities": ["Bill Clinton", "Kofi Annan", "David McCullough", "Barack Obama", "Meryl Streep", "Maya Angelou", "Tom Brokaw", "Toni Morrison", "Eleanor Roosevelt", "Paul Simon", "Maya Lin", "Condoleezza Rice", "Hillary Clinton", "Bob Dylan", "Nelson Mandela", "Oprah Winfrey", "Peter Salovey", "Robert Frost", "Albert Einstein", "John Kenneth Galbraith", "Pablo Casals", "Charles Lindbergh", "Madeleine Albright", "Laura Welch Bush", "Mikhail Gorbachev", "Mark Twain", "Stephen Sondheim", "Michael Bloomberg", "John F. Kennedy", "George W. Bush", "Steven Spielberg", "Sidney Poitier", "Jimmy Carter", "Bill Gates", "Eudora Welty", "Sheryl Sandberg", "Colin Powell", "George H.W. Bush", "Ellen Johnson Sirleaf", "Arthur Miller", "Ernest Hemingway", "J. Robert Oppenheimer", "John D. Rockefeller Jr.", "Adlai Stevenson", "William Howard Taft", "Philip Roth", "Mikhail Baryshnikov", "Elie Wiesel", "Sandra Day O'Connor", "Alice Walker", "Seamus Heaney", "Desmond Tutu", "Dwight D. Eisenhower", "Jane Addams", "Woodrow Wilson", "Robert Penn Warren", "Stephen Breyer", "John Paul Stevens", "David Souter", "Ruth Bader Ginsburg", "Antonin Scalia", "Samuel Alito", "Chinua Achebe", "Don DeLillo", "Joyce Carol Oates", "Margaret Atwood", "Salman Rushdie", "Derek Walcott", "Adonis", "Nadine Gordimer", "Susan Sontag", "Kurt Vonnegut", "Herbert Hoover", "Robert A. Millikan", "Louis Pasteur", "Leonard Bernstein", "Richard C. Levin", "Robert F. Goheen", "Carl Sandburg", "Jawaharlal Nehru", "Martha Stewart", "Tom Hanks", "Elihu Yale", "David Attenborough", "Jane Goodall", "George P. Shultz", "John Updike", "Calvin Coolidge", "David H. Koch", "John Lewis", "Andrew Carnegie", "Thornton Wilder", "John Gardner", "Paul Farmer", "Diana L. Eck", "Denzel Washington", "Albert Schweitzer", "Linus Pauling", "Robert Solow", "John Paul II", "W. Averell Harriman", "Robert Shiller", "Sonia Sotomayor", "T. S. Eliot", "Susan Hockfield", "Harry Belafonte", "Ruby Dee", "Ossie Davis", "Spike Lee", "Aretha Franklin", "Bono", "Malala Yousafzai", "Dalai Lama", "Raoul Wallenberg", "Oscar Arias Sánchez", "Mother Teresa", "Mahatma Gandhi", "Theodore Roosevelt", "Henry Ford", "Stephen Hawking", "Jorge Luis Borges", "Langston Hughes", "Ralph Ellison", "James Baldwin", "Edith Wharton", "William Faulkner", "Flannery O'Connor", "Carson McCullers", "Truman Capote", "John Cheever", "Martha Nussbaum", "Robert D. Putnam"]}
+{"SubjectEntity": "Order of the Aztec Eagle", "Relation": "awardWonBy", "ObjectEntities": ["Carlos Fuentes", "Octavio Paz", "Plácido Domingo", "Nelson Mandela", "Juan Rulfo", "María Félix", "John Kenneth Turner", "Isabel Allende", "Elena Poniatowska", "Diego Rivera", "Carlos Slim", "Carlos Monsiváis", "Miguel León-Portilla", "Charles Lindbergh", "Frida Kahlo", "Guillermo del Toro", "Salma Hayek", "Katherine Dunham", "John F. Kennedy", "Lyndon B. Johnson", "Kofi Annan", "José Luis Cuevas", "John Kenneth Galbraith", "Nelson Rockefeller", "José Vasconcelos", "Angelina Jolie", "John Steinbeck", "Pablo Neruda", "Rosario Castellanos", "Emiliano Zapata", "Joan Baez", "Malala Yousafzai", "Felipe Gonzalez", "Alejandro González Iñárritu", "Mario Vargas Llosa", "Fernando del Paso", "José Emilio Pacheco", "Jaime Sabines", "Alfonso Cuarón", "Vicente Fox", "Thalía", "Rigoberta Menchú Tum", "Adlai Stevenson", "Carlos Slim Helú", "Juan Villoro", "Jimmy Carter", "Gabriel García Márquez", "Margarita López Portillo", "Enrique Krauze", "Elena Garro", "Bill Clinton", "Hillary Clinton", "Richard Nixon", "Dwight D. Eisenhower", "John D. Rockefeller Jr.", "Juan Gelman", "Jorge Luis Borges", "Homero Aridjis"]}
+{"SubjectEntity": "AAAI Fellow", "Relation": "awardWonBy", "ObjectEntities": ["Judea Pearl", "Stuart Russell", "Michael I. Jordan", "Eric Horvitz", "Tom Mitchell", "David E. Rumelhart", "Leslie Pack Kaelbling", "Dana Angluin", "Yoshua Bengio", "Cynthia Dwork", "Yann LeCun", "David H. D. Warren", "David S. Touretzky", "Raymond Reiter", "David E. Smith", "Richard E. Korf", "Michael Kearns", "Patrick Henry Winston", "Zoubin Ghahramani", "Rina Dechter", "Raymond J. Mooney", "Fei-Fei Li", "David C. Parkes", "David McAllester", "John McCarthy", "Avrim Blum", "Geoffrey Hinton", "Marvin Minsky", "Raj Reddy", "Moshe Tennenholtz", "Daphne Koller", "Robert E. Schapire", "Joshua B. Tenenbaum", "Thomas Dean", "Tommi Jaakkola", "Susan Crawford", "Allen Newell", "Herbert A. Simon", "Thomas G. Dietterich", "Jennifer Wortman Vaughan", "David A. Cox", "Michael L. Littman", "Joseph Halpern", "Eyal Weizman", "Maria Gini", "Sebastian Thrun", "Ronald J. Brachman", "Demis Hassabis", "David S. Johnson", "Hector Geffner", "Arthur Samuel", "Jiawei Han", "Kristen Grauman", "Umesh Vazirani", "Craig Boutilier", "David Haussler", "Cynthia Barnhart", "Manuela M. Veloso", "Hanna Wallach", "Zico Kolter", "Hector J. Levesque", "Robert Wilensky", "J. Ross Quinlan", "David S. Rosenblum", "David S. Rosenblueth", "David L. Waltz", "Daniel S. Weld", "David G. Bobrow", "Richard Fikes", "Edmund M. Clarke", "Alex Smola", "Tom Bylander", "Tomaso Poggio", "David C. Hogg", "Nils J. Nilsson", "David A. Smith", "Leslie G. Valiant", "Dana H. Ballard", "Yves Cherkes-Sanford", "Carlos Guestrin", "Hal Daumé III", "Martha Pollack", "David J. C. MacKay", "Eric A. Wefald", "Stuart C. Shapiro", "Bertram Raphael", "David D. Lewis", "Christopher M. Bishop", "Andrew Y. Ng", "David M. Blei", "Sridhar Mahadevan", "Barbara Grosz", "Drew McDermott", "Jürgen Schmidhuber", "Yolanda Gil", "David W. Aha"]}
+{"SubjectEntity": "Sakharov Prize", "Relation": "awardWonBy", "ObjectEntities": ["Aung San Suu Kyi", "Wei Jingsheng", "Andrei Sakharov", "Nelson Mandela", "Malala Yousafzai", "Lech Wałęsa", "Anatoly Marchenko", "Alexander Dubcek", "Memorial", "Ibrahim Rugova", "Hu Jia", "Alexei Navalny", "Ilham Tohti", "Oleg Sentsov", "Denis Mukwege", "Solidarity", "Nadia Murad", "Mikhail Gorbachev", "Helsinki Watch", "Natan Sharansky", "Ales Bialiatski", "Leyla Zana"]}
+{"SubjectEntity": "Presidential Medal of Freedom", "Relation": "awardWonBy", "ObjectEntities": ["George H.W. Bush", "Toni Morrison", "Nelson Mandela", "Ronald Reagan", "Colin Powell", "Eleanor Roosevelt", "Elie Wiesel", "Dwight D. Eisenhower", "Sandra Day O'Connor", "John Glenn", "Robert Frost", "Robert F. Kennedy", "John F. Kennedy", "Bill Russell", "Lyndon B. Johnson", "Jimmy Carter", "Jackie Robinson", "John Kenneth Galbraith", "John Lewis", "Bill Clinton", "Cesar Chavez", "John Paul Stevens", "Maya Angelou", "Roberto Clemente", "Sidney Poitier", "Tom Brokaw", "Frank Capra", "Muhammad Ali", "John McCain", "John Hope Franklin", "Robert Redford", "Ralph Bunche", "J. Robert Oppenheimer", "Barbara Bush", "Aretha Franklin", "Robert Gates", "Richard Garwin", "Barbara Jordan", "Jesse Owens", "Omar Bradley", "Michael Jordan", "Gerald Ford", "John W. Gardner", "Warren Buffett", "Hank Aaron", "Elouise Cobell", "Dorothy Height", "John Paul II", "Stephen Hawking", "Judy Garland", "Steven Spielberg", "Frank Robinson", "Nancy Reagan", "Arthur Ashe", "Ray Charles", "Billie Jean King", "Willard Libby", "George W. Bush", "Thurgood Marshall", "Mother Teresa", "Gordon B. Hinckley", "Richard Lugar", "Jackie Joyner-Kersee", "Kareem Abdul-Jabbar", "Melinda Gates", "Bill Gates", "Norman Mineta", "Jacqueline Kennedy Onassis", "Robert S. McNamara", "Maya Lin", "Mary Robinson", "Frank Sinatra", "Alan Greenspan", "Walter Cronkite", "John W. McCormack", "Diana Ross", "Richard Nixon", "Barack Obama", "Helen Keller", "Misty Copeland", "Jack Nicklaus", "Oprah Winfrey", "Desmond Tutu", "Helen Hayes", "George Meany", "Fred Rogers", "Jack Lemmon", "Gene Kelly", "Walt Disney", "Antonin Scalia", "David McCullough", "Andrei Sakharov", "John Chafee", "Martin Luther King Jr.", "Rosa Parks", "Edward Teller", "John Foster Dulles", "George Marshall", "Joe Biden", "Ruth Bader Ginsburg", "Mikhail Gorbachev", "Vaclav Havel", "Neil Armstrong", "Itzhak Perlman", "Michelle Obama", "Dizzy Gillespie", "Condoleezza Rice", "Willie Mays", "Harry S. Truman", "Jonas Salk", "Daniel Patrick Moynihan", "Lena Horne", "Babe Ruth", "Gordon Moore", "Donald Trump", "Margaret Mead", "Stevie Wonder", "Yitzhak Rabin", "Shimon Peres", "Frank Carlucci", "Van Cliburn", "Vannevar Bush", "Warren Burger", "William O. Douglas", "John Marshall Harlan II", "Sam Nunn", "James Baker", "Fred Korematsu", "Ernie Banks", "Bayard Rustin", "Arturo Sandoval", "Stan Musial", "John Wayne", "Edward R. Murrow", "Katherine Johnson", "Jan Karski", "Lorne Michaels", "Betty Ford", "Frank Borman", "Alex Haley", "James A. Michener", "Maynard Jackson", "Bob Hope", "Patsy Mink", "Billy Graham", "Henry Kissinger", "Paul Tibbets", "Anne Armstrong", "Johnny Cash", "Tony Bennett", "Babe Didrikson Zaharias", "Paul R. McHenry", "Pat Summitt", "Shirley Chisholm", "Bob Dylan", "Paul Rusesabagina", "Tony Blair", "Joe DiMaggio", "Steve Jobs", "Clark M. Clifford", "James B. Conant", "Albert Einstein", "John Bardeen", "John J. McCloy", "Herbert Hoover", "Arthur Miller", "Jack Kemp", "Gloria Steinem", "James Taylor", "Vernon Jordan", "Loretta Lynn", "Billie Holiday", "Arthur F. Burns", "Everett Dirksen", "William B. Shockley", "General of the Army Dwight D. Eisenhower", "Richard Feynman", "Glenn T. Seaborg", "Earl Warren", "Stephen Sondheim", "Martha Graham", "Buzz Aldrin", "Michael Collins", "Ellen DeGeneres", "Tom Hanks", "I.M. Pei", "Katherine Graham", "Nancy Hanks", "Daniel Inouye", "Chuck Berry", "Elvis Presley", "Dolly Parton", "Bono", "Eunice Kennedy Shriver", "The Beatles", "The Rolling Stones", "The Beach Boys", "The Who", "The Doors", "The Clash", "The Police", "Bill Cosby", "Bill Frist", "Clark Gable", "Walter Annenberg", "Jacob K. Javits", "Sol Linowitz", "Edgar F. Shannon", "Owen Lattimore", "John McCone", "George Shultz", "William F. Durand", "William D. Coolidge", "Edwin H. Land", "John von Neumann", "Philip Showalter Hench", "Enrico Fermi", "Ernest O. Lawrence", "General of the Army Douglas MacArthur", "Fleet Admiral Chester W. Nimitz", "Fleet Admiral William D. Leahy", "Fleet Admiral Ernest J. King", "Fleet Admiral William F. Halsey, Jr.", "Steven Weinberg", "Murray Gell-Mann", "Walter Brattain", "Hans Bethe", "Isidor Isaac Rabi", "Norman Foster Ramsey", "Leon M. Lederman", "Joseph E. Murray", "Barbara McClintock", "Christian B. Anfinsen", "Marshall W. Nirenberg", "Margaret Hamilton", "Alan Kay", "Robert Solow", "Paul Volcker", "William J. Brennan Jr.", "John Steinbeck", "Georgia O'Keeffe", "Robert F. Goheen", "Lech Walesa", "Corazon Aquino", "Aung San Suu Kyi", "F.W. de Klerk"]}
+{"SubjectEntity": "Turing Award", "Relation": "awardWonBy", "ObjectEntities": ["Edsger W. Dijkstra", "John McCarthy", "Allen Newell", "Herbert A. Simon", "Charles P. Thacker", "Donald E. Knuth", "Barbara Liskov", "Michael Stonebraker", "John Backus", "Stephen Cook", "Leonard Adleman", "Marvin Minsky", "Edmund M. Clarke", "Dennis Ritchie", "Joseph Sifakis", "Robert E. Kahn", "Richard M. Karp", "E. Allen Emerson", "Yoshua Bengio", "C. A. R. Hoare", "Robert W. Floyd", "John Hopcroft", "Ken Thompson", "Yann LeCun", "Jim Gray", "Judea Pearl", "Whitfield Diffie", "Butler Lampson", "Edward Feigenbaum", "Robin Milner", "Tim Berners-Lee", "Vinton G. Cerf", "Andrew Yao", "Niklaus Wirth", "Robert Tarjan", "Frances E. Allen", "Alan Perlis", "Fernando J. Corbató", "Jeffrey Ullman", "Vint Cerf", "Adi Shamir", "Martin Hellman", "Maurice Vincent Wilkes", "Ralph Merkle", "Richard Hamming", "Alan Turing", "John L. Hennessy", "Geoffrey Hinton", "Edgar F. Codd", "Charles Bachman", "Douglas Engelbart", "Peter Naur", "Alfred Aho", "Silvio Micali", "Shafi Goldwasser", "Ivan Sutherland", "William Kahan", "Kenneth E. Iverson", "Leslie Valiant", "Fred Brooks", "Alan Kay", "John Cocke", "Ronald Rivest", "Grace Murray Hopper", "Robert W. Taylor", "Dana S. Scott", "Jeffrey Dean", "David D. Clark", "Michael Jordan", "Alonzo Church", "David J. DeWitt", "Bob Kahn", "Michael O. Rabin", "Leslie Lamport", "Stuart Russell", "Howard H. Aiken", "Robert Metcalfe", "Ole-Johan Dahl", "Amnon H. Eden", "Raj Reddy", "Seymour Papert"]}
+{"SubjectEntity": "Félix Houphouët-Boigny Peace Prize", "Relation": "awardWonBy", "ObjectEntities": ["Nelson Mandela", "Kofi Annan", "F.W. de Klerk", "Wangari Maathai", "Shimon Peres", "Yasser Arafat", "Yitzhak Rabin", "Dalai Lama", "Amnesty International", "Denis Mukwege", "Aung San Suu Kyi", "Adolfo Pérez Esquivel", "Graça Machel", "Federico Mayor Zaragoza", "Nadia Murad"]}
+{"SubjectEntity": "American Library Association Honorary Membership", "Relation": "awardWonBy", "ObjectEntities": ["Eleanor Roosevelt", "John Cotton Dana", "Maurice Sendak", "Melvil Dewey", "Theodore Roosevelt", "Maya Angelou", "Katherine Paterson", "Helen Keller", "Walter Dean Myers", "Neil Gaiman", "Gwendolyn Brooks", "John Shaw Billings", "E.B. White", "Jacqueline Woodson", "Toni Morrison", "Laurie Halse Anderson", "John F. Kennedy", "Charles C. Williamson", "Judy Blume", "Maurice F. Tauber", "Carl Sandburg", "Lois Lowry", "Gary Paulsen", "Henry E. Legler", "Andrew Carnegie", "Gene Luen Yang", "Harriet Adams", "Langston Hughes", "Sandra Cisneros", "Ursula K. Le Guin", "William Frederick Poole", "Abraham Lincoln", "Eudora Welty", "Joyce Carol Oates", "Junot Díaz", "Louise Erdrich", "Ralph Ellison", "James Baldwin", "Jason Reynolds", "Charles Ammi Cutter", "Susan Cooper", "Studs Terkel", "Margaret I. Rutledge", "John D. Rockefeller, Jr.", "Margaret Mead", "Harriet E. Howe", "Dorothy Canfield Fisher", "William Allen White", "Jane Addams", "Herbert Putnam", "George B. Utley", "Beverly Cleary", "Margaret A. Edwards", "Kwame Alexander", "Mildred L. Batchelder", "John M. Egan", "Harold W. McGrath", "Edith Thomas Clarke", "Margaret Chase Smith", "Caroline M. Hewins", "Charles W. Eliot", "Edith Thomas", "John V. N. Dore", "Randy Ribay", "Maurice Freedman", "Gordon M. Connell", "Frederick H. W. Sheppard", "William I. Fletcher", "John Steinbeck", "Madeleine L'Engle", "Adelaide R. Hasse", "Nic Stone", "Angie Thomas", "Ibi Zoboi", "Erika L. Sánchez", "Nancy Pearl"]}
+{"SubjectEntity": "Bharti Airtel", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["National Stock Exchange of India", "Bombay Stock Exchange", "New York Stock Exchange"]}
+{"SubjectEntity": "RPS Group", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["London Stock Exchange"]}
+{"SubjectEntity": "United Wire Factories Co.", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Onex Corporation", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Toronto Stock Exchange"]}
+{"SubjectEntity": "ekoka", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Cylon Controls Ltd.", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "The Home Depot", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "Italia Independent Group", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Masaryk Station Development", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "DuPont", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "Bisichi Mining", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["London Stock Exchange"]}
+{"SubjectEntity": "ABC-Mart", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Tokyo Stock Exchange"]}
+{"SubjectEntity": "airBaltic", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Savencia Fromage & Dairy", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Euronext Paris"]}
+{"SubjectEntity": "WINOX HOLDINGS LIMITED", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Tatra Asset Management, správ. spol., a.s., PrivateDeposit Fund o.p.f.", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Sterbekasse Evangelischer Freikirchen", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "2 Entertain", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Nordfrost", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Hexion", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "Porsche Automobil Holding SE", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Frankfurt Stock Exchange"]}
+{"SubjectEntity": "Malaysia Airlines", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Imperial Hotel", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Global Strategic Group Limited", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "DIC Corporation", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Tokyo Stock Exchange"]}
+{"SubjectEntity": "WildBrain", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Toronto Stock Exchange"]}
+{"SubjectEntity": "Kader", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Hong Kong Stock Exchange"]}
+{"SubjectEntity": "Ugo Média", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Leclanché", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["SIX Swiss Exchange"]}
+{"SubjectEntity": "FujiGen", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Tokyo Stock Exchange"]}
+{"SubjectEntity": "Qype", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Life Insurance Corporation of India", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Shochiku", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Tokyo Stock Exchange"]}
+{"SubjectEntity": "Silver Pictures", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "N.S.C. s. r. o.", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Aisin Seiki", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Tokyo Stock Exchange"]}
+{"SubjectEntity": "Infosys", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["National Stock Exchange of India", "Bombay Stock Exchange", "New York Stock Exchange"]}
+{"SubjectEntity": "Calpine", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "Skycity Entertainment Group", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New Zealand Exchange", "Australian Securities Exchange", "New Zealand Stock Exchange"]}
+{"SubjectEntity": "Medtronic plc", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "Gebrüder Späth", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Arduino", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Toei Animation", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Delta-galil Industries Ltd.", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Tel Aviv Stock Exchange", "New York Stock Exchange"]}
+{"SubjectEntity": "47 Street", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "KAM HING INTERNATIONAL HOLDINGS LIMITED", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Hong Kong Stock Exchange"]}
+{"SubjectEntity": "Dolby", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "Aguas Solán de Cabras, S.A.", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "WILL,Co.,Ltd.", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Tokyo Stock Exchange"]}
+{"SubjectEntity": "NATURTEP", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Huta Bankowa", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Edison International", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "KONČAR Group", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Londonderry and Enniskillen Railway", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Nike", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "BDO Unibank", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Philippine Stock Exchange"]}
+{"SubjectEntity": "Comindico", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "DRDGOLD Limited", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Johannesburg Stock Exchange", "New York Stock Exchange"]}
+{"SubjectEntity": "J. C. Penney", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "XIBEI BEARING CO.,LTD.", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Shenzhen Stock Exchange"]}
+{"SubjectEntity": "Bělehradská Invest", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Celldex Therapeutics", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["NASDAQ"]}
+{"SubjectEntity": "AvalonBay Communities", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "Leonardo", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Borsa Italiana"]}
+{"SubjectEntity": "Instant Factoring IFN", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Daibiru Corporation", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Tokyo Stock Exchange"]}
+{"SubjectEntity": "Nortuno", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "CHINA WATER INDUSTRY GROUP LIMITED", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Hong Kong Stock Exchange"]}
+{"SubjectEntity": "RetailMeNot", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Nasdaq", "New York Stock Exchange"]}
+{"SubjectEntity": "Time Inc.", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "Bank of Communications", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Hong Kong Stock Exchange", "Shanghai Stock Exchange"]}
+{"SubjectEntity": "Questerre Energy", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Toronto Stock Exchange"]}
+{"SubjectEntity": "Kronospan CR", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Dwyer Brothers Stable", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "IBOS", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "FirstBank Holding Co", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Kajima Corporation", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Tokyo Stock Exchange"]}
+{"SubjectEntity": "Toho Co., Ltd.", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Tokyo Stock Exchange"]}
+{"SubjectEntity": "Ashot - Ashkelon Industries Ltd.", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Kintetsu Real Estate", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Tokyo Stock Exchange"]}
+{"SubjectEntity": "Automatic Data Processing", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["NASDAQ"]}
+{"SubjectEntity": "Bayu Buana", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Nordic Investment Bank", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Baidu", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["NASDAQ", "Hong Kong Stock Exchange"]}
+{"SubjectEntity": "Solar Meclov", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Lotte Chemical Titan", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Korea Exchange"]}
+{"SubjectEntity": "Reddit Inc.", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "Lear Corporation", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "Southwest Airlines", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "McAfee, LLC", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Uber", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "Enel Generación Chile", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange", "Santiago Stock Exchange"]}
+{"SubjectEntity": "Stadtwerke Greifswald", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Pštrossova 24", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Orbis S.A. (hotel group)", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Mercedes-Benz Group", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Frankfurt Stock Exchange"]}
+{"SubjectEntity": "Harte", "Relation": "companyTradesAtStockExchange", "ObjectEntities": []}
+{"SubjectEntity": "Hilton Grand Vacations", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["New York Stock Exchange"]}
+{"SubjectEntity": "ČEZ Group", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Prague Stock Exchange"]}
+{"SubjectEntity": "Asuransi Ramayana", "Relation": "companyTradesAtStockExchange", "ObjectEntities": ["Indonesia Stock Exchange"]}
+{"SubjectEntity": "Ethiopia", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Eritrea", "Djibouti", "Somalia", "Sudan", "South Sudan", "Kenya"]}
+{"SubjectEntity": "Russia", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Finland", "Estonia", "Latvia", "Lithuania", "Poland", "Belarus", "Ukraine", "Georgia", "Azerbaijan", "Kazakhstan", "China", "North Korea", "Mongolia"]}
+{"SubjectEntity": "Bangladesh", "Relation": "countryLandBordersCountry", "ObjectEntities": ["India", "Myanmar"]}
+{"SubjectEntity": "Uruguay", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Argentina", "Brazil"]}
+{"SubjectEntity": "Namibia", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Angola", "Botswana", "South Africa", "Zambia"]}
+{"SubjectEntity": "Antigua and Barbuda", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Burkina Faso", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Benin", "Côte d'Ivoire", "Ghana", "Mali", "Niger", "Togo"]}
+{"SubjectEntity": "Central African Republic", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Cameroon", "Chad", "Democratic Republic of the Congo", "Republic of the Congo", "South Sudan"]}
+{"SubjectEntity": "Malta", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "The Gambia", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Senegal"]}
+{"SubjectEntity": "Belarus", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Latvia", "Lithuania", "Poland", "Russia", "Ukraine"]}
+{"SubjectEntity": "Maldives", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Lesotho", "Relation": "countryLandBordersCountry", "ObjectEntities": ["South Africa"]}
+{"SubjectEntity": "Greece", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Albania", "North Macedonia", "Bulgaria", "Turkey"]}
+{"SubjectEntity": "Andorra", "Relation": "countryLandBordersCountry", "ObjectEntities": ["France", "Spain"]}
+{"SubjectEntity": "Marshall Islands", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Barbados", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Romania", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Ukraine", "Moldova", "Hungary", "Serbia", "Bulgaria"]}
+{"SubjectEntity": "Brunei", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Malaysia"]}
+{"SubjectEntity": "Eritrea", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Djibouti", "Ethiopia", "Sudan"]}
+{"SubjectEntity": "Mongolia", "Relation": "countryLandBordersCountry", "ObjectEntities": ["China", "Russia"]}
+{"SubjectEntity": "Latvia", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Estonia", "Lithuania", "Russia", "Belarus"]}
+{"SubjectEntity": "Samoa", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Malawi", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Mozambique", "Tanzania", "Zambia"]}
+{"SubjectEntity": "Djibouti", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Eritrea", "Ethiopia", "Somalia"]}
+{"SubjectEntity": "Tuvalu", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Equatorial Guinea", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Cameroon", "Gabon"]}
+{"SubjectEntity": "Panama", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Colombia", "Costa Rica"]}
+{"SubjectEntity": "Oman", "Relation": "countryLandBordersCountry", "ObjectEntities": ["United Arab Emirates", "Saudi Arabia", "Yemen"]}
+{"SubjectEntity": "North Korea", "Relation": "countryLandBordersCountry", "ObjectEntities": ["China", "South Korea"]}
+{"SubjectEntity": "Solomon Islands", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Gabon", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Cameroon", "Republic of the Congo", "Equatorial Guinea"]}
+{"SubjectEntity": "Eswatini", "Relation": "countryLandBordersCountry", "ObjectEntities": ["South Africa", "Mozambique"]}
+{"SubjectEntity": "Comoros", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Venezuela", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Colombia", "Brazil", "Guyana"]}
+{"SubjectEntity": "Guinea-Bissau", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Senegal", "Guinea"]}
+{"SubjectEntity": "East Timor", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Indonesia"]}
+{"SubjectEntity": "Serbia", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Hungary", "Romania", "Bulgaria", "North Macedonia", "Croatia", "Bosnia and Herzegovina", "Montenegro", "Albania", "Kosovo"]}
+{"SubjectEntity": "Albania", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Montenegro", "Kosovo", "North Macedonia", "Greece"]}
+{"SubjectEntity": "Dominican Republic", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Haiti"]}
+{"SubjectEntity": "Armenia", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Azerbaijan", "Georgia", "Iran", "Turkey"]}
+{"SubjectEntity": "Cambodia", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Thailand", "Vietnam", "Laos"]}
+{"SubjectEntity": "Tonga", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Palestine", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Israel", "Egypt"]}
+{"SubjectEntity": "Tunisia", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Algeria", "Libya"]}
+{"SubjectEntity": "Mexico", "Relation": "countryLandBordersCountry", "ObjectEntities": ["United States"]}
+{"SubjectEntity": "Australia", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Bahamas", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Iraq", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Iran", "Jordan", "Kuwait", "Saudi Arabia", "Syria", "Turkey"]}
+{"SubjectEntity": "Philippines", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Dominica", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Guyana", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Brazil", "Suriname", "Venezuela"]}
+{"SubjectEntity": "Vanuatu", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Bosnia and Herzegovina", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Croatia", "Serbia", "Montenegro"]}
+{"SubjectEntity": "Turkey", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Georgia", "Armenia", "Iran", "Iraq", "Syria", "Bulgaria"]}
+{"SubjectEntity": "Bhutan", "Relation": "countryLandBordersCountry", "ObjectEntities": ["China", "India"]}
+{"SubjectEntity": "Mauritania", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Western Sahara", "Algeria", "Mali", "Senegal"]}
+{"SubjectEntity": "Norway", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Finland", "Sweden", "Russia"]}
+{"SubjectEntity": "South Ossetia", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Russia", "Georgia"]}
+{"SubjectEntity": "Croatia", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Slovenia", "Hungary", "Serbia", "Bosnia and Herzegovina", "Montenegro"]}
+{"SubjectEntity": "Poland", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Germany", "Czech Republic", "Slovakia", "Ukraine", "Belarus", "Lithuania", "Russia"]}
+{"SubjectEntity": "Turkmenistan", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Afghanistan", "Iran", "Kazakhstan", "Uzbekistan"]}
+{"SubjectEntity": "Malaysia", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Brunei", "Indonesia", "Thailand"]}
+{"SubjectEntity": "Nepal", "Relation": "countryLandBordersCountry", "ObjectEntities": ["China", "India"]}
+{"SubjectEntity": "Saint Pierre and Miquelon", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Saint Lucia", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Cape Verde", "Relation": "countryLandBordersCountry", "ObjectEntities": []}
+{"SubjectEntity": "Jordan", "Relation": "countryLandBordersCountry", "ObjectEntities": ["Iraq", "Israel", "Saudi Arabia", "Syria", "Palestine", "West Bank"]}
+{"SubjectEntity": "Nerses Bedros XIX Tarmouni", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Beirut"]}
+{"SubjectEntity": "Juan Luis Galiardo", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Madrid"]}
+{"SubjectEntity": "John Hurt", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Joseph L. Goldstein", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Leonard Susskind", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Tom Brokaw", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Pavel Lebeshev", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Kari Aronpuro", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Sathamangalam Ranga Iyengar Srinivasa Varadhan", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Toshihide Maskawa", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Kyoto"]}
+{"SubjectEntity": "Adrien Zeller", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Strasbourg"]}
+{"SubjectEntity": "Christoph Eschenbach", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Erich Bethe (philanthropist)", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Hubert Burda", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Evi Nemeth", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Augusto Fantozzi", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Mansur Şihapof", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Larisa Golubkina", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Moscow"]}
+{"SubjectEntity": "Levon Helm", "Relation": "personHasCityOfDeath", "ObjectEntities": ["New York City"]}
+{"SubjectEntity": "Bolesław Zoń", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Yvonne Blake", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Barcelona"]}
+{"SubjectEntity": "Ursula Krinzinger", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Asaf Duraković", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Bernard Shaw (journalist)", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Vito Acconci", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Alexandru Repan", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "László Vitézy", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Jerry Lucas", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Edward Redliński", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Maurizio Moreno", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Jesús López Cobos", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Madrid"]}
+{"SubjectEntity": "Jon Elster", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "John Mahoney", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Chicago"]}
+{"SubjectEntity": "Cecily Corti", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Sultan Khan (musician)", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Peter Gregg (racing driver)", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Hennadii Dolzhenko", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Adalberto Giazotto", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Pisa"]}
+{"SubjectEntity": "Oleh Panasovskyi", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Francesc Betriu i Cabeceran", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Barcelona"]}
+{"SubjectEntity": "Vagif Mustafazadeh", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Baku"]}
+{"SubjectEntity": "László Sinkó", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Budapest"]}
+{"SubjectEntity": "Laurence Decore", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Edmonton"]}
+{"SubjectEntity": "Joseph Brodsky", "Relation": "personHasCityOfDeath", "ObjectEntities": ["New York"]}
+{"SubjectEntity": "Richard Chew", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Víctor Gómez Bergés", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Michael Spivak", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Maria Mazziotti Gillan", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "J. M. Coetzee", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Chuck Norris", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Terry Harper (ice hockey)", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Pilar Mercedes Miró Romero", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Madrid"]}
+{"SubjectEntity": "Thomas Köhler (luger)", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Viktor Ivannikov", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Moscow"]}
+{"SubjectEntity": "Canali Akbarov", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Norbert Tadeusz", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Anna Oppermann", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Erkki Ruoslahti", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Nguyen Van Troi", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Saigon"]}
+{"SubjectEntity": "Erich Schleyer", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Nicolae Martinescu", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Bucharest"]}
+{"SubjectEntity": "Renate Hellwig", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Valie Export", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Paolo Borsellino", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Palermo"]}
+{"SubjectEntity": "Narendra Kohli", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Jean-Marie Gustave Le Clézio", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Svetlana Morgunova", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Reijo Taipale", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Helsinki"]}
+{"SubjectEntity": "Vladimir Sharpatov", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Per Egil Hegge", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Notker Wolf", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Bob Hewitt", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "James Caan (actor)", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Los Angeles"]}
+{"SubjectEntity": "Sherko Bekas", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Jack Nicklaus", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Peter Diamond (economist)", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Max Mosley", "Relation": "personHasCityOfDeath", "ObjectEntities": ["London"]}
+{"SubjectEntity": "Ani Bakalova", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Gogi Kavtaradze", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Tbilisi"]}
+{"SubjectEntity": "Ed Van Impe", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Al Jarreau", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Los Angeles"]}
+{"SubjectEntity": "Aleksandr Anipkin", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Béla Éless", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Budapest"]}
+{"SubjectEntity": "Vitaly Efimov (politician)", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Alina Pokrovskaya", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Natalya Gramolina", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Moscow"]}
+{"SubjectEntity": "Klaus Zehelein", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Penelope Keith", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Iva Zanicchi", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Ion Ciocanu", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Helmut Ruge", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Äzhär Şakiref", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "William C. Chasey", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Souleymane Cissé", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Mariusz Hermansdorfer", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Mojca Senčar", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Ljubljana"]}
+{"SubjectEntity": "H. R. Giger", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Vaino Vahing", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Tallinn"]}
+{"SubjectEntity": "Vladimir Vasiliev (dancer)", "Relation": "personHasCityOfDeath", "ObjectEntities": []}
+{"SubjectEntity": "Tabaré Vázquez", "Relation": "personHasCityOfDeath", "ObjectEntities": ["Montevideo"]}

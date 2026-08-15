@@ -1,0 +1,3 @@
+PyYAML>=6.0
+pandas>=2.0      # used by the official evaluate.py
+openai>=1.0      # only needed for --live; replaying the shipped cache does not import it

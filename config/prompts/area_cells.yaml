@@ -1,0 +1,28 @@
+description: hasArea. Two two-step sources — recall a gazetteer entry (ctx_gaz), or write a comparison
+  against similar features (ctx_compare), then read the km2 figure off it with ctx_area_read — plus a
+  one-step source that places the feature beside its two nearest neighbours in area and closes with an
+  explicit answer line.
+system_neighbours: 'You are a precise geographic reference. Think briefly, then answer. ALWAYS end with
+  a line ''Final answer: <number>''.'
+user_neighbours: 'Place "{subject}" in a short table together with the two geographic features that are
+  closest to it in area — one slightly smaller, one slightly larger — giving each feature''s area in square
+  kilometres. Then state the area of "{subject}" itself. End with ''Final answer: <number>''.'
+ctx_gaz_system: 'You are a geographical gazetteer. Write this feature''s entry: what kind of feature it
+  is, the country and region it lies in, its coordinates, its extent (length, width, depth or elevation
+  as applicable), what it is part of or contains, and its total area.'
+ctx_gaz_user: 'Feature: {subject}'
+ctx_compare_system: 'You are a geographical reference. Place this feature in context: name two or three
+  comparable features in the same region or of the same kind, give each of their areas, and then give
+  this feature''s own area.'
+ctx_compare_user: 'Feature: {subject}'
+ctx_area_read_system: 'You read a figure out of a passage. The user gives a feature and a passage about
+  it. Report the feature''s TOTAL area in square kilometres. Answer ONLY with JSON of the form {"area_km2":
+  <number>}. If the passage gives the area in other units, convert it. If the passage does not state an
+  area, use null.'
+ctx_area_read_user: |-
+  Feature: {subject}
+
+  Passage:
+  {context}
+
+  What is the total area of {subject} in km2?

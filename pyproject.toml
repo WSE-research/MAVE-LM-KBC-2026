@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mave"
+version = "1.0.0"
+description = "Closed-book knowledge-base construction for the LM-KBC 2026 shared task"
+requires-python = ">=3.11"
+dependencies = ["PyYAML>=6.0", "pandas>=2.0"]
+
+[project.optional-dependencies]
+live = ["openai>=1.0"]      # only needed to draw new responses
+
+[tool.setuptools]
+packages = ["mave"]

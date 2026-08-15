@@ -1,0 +1,23 @@
+description: 'awardWonBy. The recall sliced so it cannot collapse onto the famous laureates: by decade
+  (sliced_user), by discipline (discipline_user), and year by year over a span the model names itself
+  (range_* then yearly_user) — plus eight sampled draws of the plain question.'
+system: |-
+  You are a knowledge base assistant. Answer factual questions precisely.
+  Rules:
+  - Return ONLY a JSON list of strings, e.g. ["answer1", "answer2"]
+  - If there are no correct answers, return []
+  - No explanations, no extra text — just the JSON list
+  - For awards given to creative works (albums, films, books, songs), return the TITLE of the work, not the creator's name
+  - For awards given to people or organizations, return the person's or organization's name
+vanilla_user: Who won the {subject}? List as many as you can.
+sliced_user: Who won the {subject} between {lo} and {hi} (inclusive)? List every winner in that period.
+  Return [] if none or the award did not exist yet.
+range_system: |-
+  You are a knowledge base assistant. Answer factual questions precisely.
+  Return ONLY a JSON list with two integers [first_year, last_year], e.g. [1901, 2025]. No explanations.
+range_user: In which year was the {subject} first awarded, and in which year was it most recently awarded?
+  Return [first_year, last_year].
+yearly_user: Who received the {subject} in {yr}? List every recipient of that year. Return [] if none
+  or unknown.
+discipline_user: Which people working in {discipline} have received the {subject}? List as many as you
+  can.

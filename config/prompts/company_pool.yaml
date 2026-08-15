@@ -1,0 +1,64 @@
+description: 'companyTradesAtStockExchange. Five elicitations — venues and listing status in one answer,
+  a written-out company record, free recall closed by a LISTED: line, the same question asked in the company''s
+  home language (lang_system picks the code, ml_user_<code> asks it), and the route from ticker symbol
+  back to venue — plus the canonicaliser''s single-name prompt in company_canon_string.yaml.'
+system: |-
+  You are a knowledge base assistant. For the company named by the user, decide whether its shares are (or have been) listed on a stock exchange, and if so, on which exchange(s). Respond ONLY with a JSON object of the form: {"status": "listed" | "not_listed" | "unknown", "exchanges": ["<exchange name>", ...]}. Rules:
+  - "listed": the company's OWN shares are or have been publicly traded on one or more stock exchanges. List ALL of them, including secondary and cross-listings.
+  - Give each exchange's common English name, e.g. "New York Stock Exchange", "Nasdaq", "London Stock Exchange", "Tokyo Stock Exchange", "Hong Kong Stock Exchange", "Toronto Stock Exchange", "Frankfurt Stock Exchange". If the company trades over-the-counter (pink sheets) rather than on a formal exchange, use "OTC Markets Group".
+  - "not_listed": the company is privately held, a subsidiary whose shares are not separately listed, an association, a fund, or otherwise never had publicly traded shares. Use exchanges: [].
+  - "unknown": you genuinely cannot recall. Use exchanges: [].
+  - Only answer "listed" if you actually know the company's shares are/were traded.
+  - No explanations, no extra text — just the JSON object.
+user: 'Company: {subject}'
+ic_system: You are a precise company reference with detailed knowledge of Wikipedia infoboxes and stock-market
+  listings. Recall the company's factual record from memory.
+ic_user: |-
+  Recall the following facts about the company "{subject}" and return ONLY a JSON object of the form:
+  {"company": "<full legal name>", "country": "<country of headquarters>", "headquarters": "<city>", "industry": "<industry>", "listing_status": "<one of: listed, private, delisted, acquired, subsidiary>", "primary_ticker": "<ticker symbol with its exchange suffix, or null>", "stock_exchanges": ["<every stock exchange the company's shares are or have been listed on>"]}
+  Use an empty list for stock_exchanges if the company has never been publicly listed. No text outside the JSON object.
+wt_system: You reproduce Wikipedia article text from memory as accurately as you can.
+wt_user: 'Write the opening one or two sentences of the English Wikipedia article about the company "{subject}",
+  exactly in Wikipedia''s style, including its stock-exchange listing and ticker if it has one. Then add
+  a final line ''LISTED: <comma-separated stock exchanges, or NONE>''.'
+lang_system: 'You identify the home market of a company. Answer with exactly one ISO 639-1 code from:
+  ja zh de fr es pt ru ar ko it nl sv tr pl id he hu hr th vi ms el cs ro uk fi da nb en.'
+lang_user: Which home market language for "{subject}"? One code.
+ml_system: 'Return ONLY a JSON object of the form {"listed": true|false, "exchanges": ["<exchange names
+  in English>"]}. Use listed=false and an empty list if the company is not publicly traded. No text outside
+  the JSON object.'
+ml_user_ja: 「{subject}」はどの証券取引所に上場していますか？
+ml_user_zh: “{subject}”在哪些证券交易所上市？
+ml_user_de: An welchen Börsen ist „{subject}“ notiert?
+ml_user_fr: Sur quelles bourses « {subject} » est-elle cotée ?
+ml_user_es: ¿En qué bolsas de valores cotiza «{subject}»?
+ml_user_pt: Em quais bolsas de valores «{subject}» é listada?
+ml_user_ru: На каких фондовых биржах котируется «{subject}»?
+ml_user_ar: في أي أسواق مالية مدرجة «{subject}»؟
+ml_user_ko: 「{subject}」은(는) 어느 증권거래소에 상장되어 있습니까?
+ml_user_it: In quali borse è quotata «{subject}»?
+ml_user_id: Di bursa efek mana «{subject}» tercatat?
+ml_user_he: ?באילו בורסות נסחרת «{subject}»
+ml_user_hu: Mely értéktőzsdéken jegyzik a(z) „{subject}” részvényeit?
+ml_user_hr: Na kojim je burzama uvrštena kompanija „{subject}”?
+ml_user_th: «{subject}» จดทะเบียนในตลาดหลักทรัพย์ใดบ้าง
+ml_user_vi: «{subject}» được niêm yết trên những sàn giao dịch chứng khoán nào?
+ml_user_ms: Di bursa saham manakah «{subject}» disenaraikan?
+ml_user_el: Σε ποια χρηματιστήρια είναι εισηγμένη η «{subject}»;
+ml_user_cs: Na kterých burzách je společnost „{subject}“ kotována?
+ml_user_ro: La ce burse de valori este listată «{subject}»?
+ml_user_uk: На яких фондових біржах котирується «{subject}»?
+ml_user_fi: Missä pörsseissä «{subject}» on listattuna?
+ml_user_da: På hvilke børser er «{subject}» noteret?
+ml_user_nb: På hvilke børser er «{subject}» notert?
+ml_user_nl: Op welke beurzen is «{subject}» genoteerd?
+ml_user_sv: På vilka börser är ”{subject}” noterat?
+ml_user_tr: «{subject}» hangi borsalarda işlem görüyor?
+ml_user_pl: Na jakich giełdach notowana jest „{subject}”?
+ml_user_en: On which stock exchanges is "{subject}" listed?
+tk_system: 'You recall stock ticker symbols from memory. A ticker is short and exact, e.g. ''7203.T'',
+  ''HSBA.L'', ''0700.HK'', ''AAPL''. Return ONLY a JSON object of the form {"ticker": "<ticker or null>",
+  "exchange": "<full exchange name in English or null>", "listing_status": "listed" | "not_listed"}. If
+  you cannot recall an actual ticker for this exact company, return nulls and "not_listed" — do not invent
+  a ticker. No text outside the JSON object.'
+tk_user: What is the stock ticker symbol of the company "{subject}", and on which exchange does it trade?

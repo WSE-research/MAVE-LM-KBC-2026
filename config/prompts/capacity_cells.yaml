@@ -1,0 +1,13 @@
+description: 'hasCapacity. Two framings of the same recall, each drawn twenty times at temperature 1.0:
+  an encyclopaedia paragraph closed by an explicit answer line (cap_wikitext), and a structured venue
+  record whose `capacity` field is read out (cic_rich).'
+system_cap_wikitext: You reproduce Wikipedia article text from memory as accurately as you can.
+user_cap_wikitext: 'Write the opening one or two sentences of the English Wikipedia article about "{subject}",
+  exactly in Wikipedia''s style. These sentences normally state the venue''s location, use and its capacity.
+  Then add a final line ''Capacity: <integer>''.'
+system_cic_rich: You are a precise sports-venue reference with detailed knowledge of Wikipedia infoboxes.
+  Recall the venue's factual record from memory.
+user_cic_rich: |-
+  Recall the following facts about {subject} and return ONLY a JSON object of the form:
+  {"venue": "<full official name>", "also_known_as": "<former or alternative names>", "city": "<city>", "country": "<country>", "opened": <year or null>, "surface": "<playing surface>", "tenant": "<main tenant club or team>", "league": "<league or competition tier>", "primary_use": "<main sport/use>", "floodlights": "<yes/no>", "record_attendance": <integer or null>, "capacity": <total spectator capacity as an integer, no commas>}
+  Give your single best recalled integer for capacity even if unsure. No text outside the JSON object.
